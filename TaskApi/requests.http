@@ -13,6 +13,26 @@ GET {{baseUrl}}/api/Task?completed=false
 GET {{baseUrl}}/api/Task/1
 
 ###
+###
+PATCH {{baseUrl}}/api/Task/2
+
+###
+###
+DELETE {{baseUrl}}/api/Task/4
+
+###
+GET {{baseUrl}}/api/Task/search?query=ASP
+
+###
+GET {{baseUrl}}/api/Task/priority/High
+
+###
+GET {{baseUrl}}/api/Task/stats
+
+###
+GET {{baseUrl}}/api/Task/sorted?by=priority&desc=false
+
+###
 GET {{baseUrl}}/api/Task/999
 
 ###
